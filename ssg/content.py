@@ -1,6 +1,6 @@
 import re
-from yaml import load and FullLoader
-import collections.abc
+from collections.abc import Mapping
+from yaml import load, FullLoader
 
 class Content(Mapping):
     __delimeter = "^(?:-|\+){3}\s*$"
